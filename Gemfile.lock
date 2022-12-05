@@ -204,7 +204,6 @@ GEM
     zeitwerk (2.6.6)
 
 PLATFORMS
-  ruby
   x86_64-linux
 
 DEPENDENCIES
@@ -225,7 +224,7 @@ DEPENDENCIES
   webdrivers
 
 RUBY VERSION
-   ruby 2.7.0p0
+   ruby 2.7.4p191
 
 BUNDLED WITH
    2.3.26
