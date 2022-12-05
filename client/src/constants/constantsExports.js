@@ -1,4 +1,4 @@
-import { facebook, instagram, linkedin, twitter } from "../assets";
+import { facebook, instagram, linkedin, twitter } from "../assets/assetsExports";
 
 export const footerLinks = [
   {
@@ -32,7 +32,7 @@ export const footerLinks = [
       },
       {
         name: "Rotten Tomatoes",
-        link: "https://www.rottentomatoes.com/",
+        link: "https://www.instagram.com/",
       },
       {
         name: "Kids Shows",
