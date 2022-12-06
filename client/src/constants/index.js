@@ -49,12 +49,12 @@ export const footerLinks = [
     links: [
       {
         name: "Ways to Watch",
-        link: "https://www.hoobank.com/our-partner/",
+        link: "https://www.netflix.com/our-partner/",
       },
 
       {
         name: "Terms & Services",
-        link: "https://www.hoobank.com/terms-and-services/",
+        link: "https://www.netflix.com/terms-and-services/",
       },
     ],
   },

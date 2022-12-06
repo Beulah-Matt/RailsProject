@@ -1,6 +1,6 @@
 import React from 'react'
 import styles from '../style'
-import {footerLinks, socialMedia} from '../constantsExports'
+import {footerLinks, socialMedia} from '../constants'
 
 const Footer = () => {
   return (

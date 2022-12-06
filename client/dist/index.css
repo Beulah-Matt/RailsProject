@@ -620,6 +620,10 @@ video {
   display: flex;
 }
 
+.hidden{
+  display: none;
+}
+
 .h-\[21px\]{
   height: 21px;
 }
@@ -674,6 +678,10 @@ video {
 
 .items-center{
   align-items: center;
+}
+
+.justify-end{
+  justify-content: flex-end;
 }
 
 .justify-center{
@@ -979,6 +987,10 @@ video {
   .sm\:my-16{
     margin-top: 4rem;
     margin-bottom: 4rem;
+  }
+
+  .sm\:flex{
+    display: flex;
   }
 
   .sm\:px-16{
