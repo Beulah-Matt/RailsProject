@@ -1,5 +1,5 @@
 User.destroy_all
-# Movie.destroy_all
+Movie.destroy_all
 MovieCollection.destroy_all
 
 puts "🌱 Seeding spices..."
