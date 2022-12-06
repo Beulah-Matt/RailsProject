@@ -46,6 +46,11 @@ GEM
       erubi (~> 1.4)
       rails-dom-testing (~> 2.0)
       rails-html-sanitizer (~> 1.1, >= 1.2.0)
+    active_model_serializers (0.10.13)
+      actionpack (>= 4.1, < 7.1)
+      activemodel (>= 4.1, < 7.1)
+      case_transform (>= 0.2)
+      jsonapi-renderer (>= 0.1.1.beta1, < 0.3)
     activejob (7.0.4)
       activesupport (= 7.0.4)
       globalid (>= 0.3.6)
@@ -82,12 +87,16 @@ GEM
       rack-test (>= 0.6.3)
       regexp_parser (>= 1.5, < 3.0)
       xpath (~> 3.2)
+    case_transform (0.2)
+      activesupport
     concurrent-ruby (1.1.10)
     crass (1.0.6)
     debug (1.7.0)
       irb (>= 1.5.0)
       reline (>= 0.3.1)
     erubi (1.11.0)
+    faker (3.0.0)
+      i18n (>= 1.8.11, < 2)
     globalid (1.0.0)
       activesupport (>= 5.0)
     i18n (1.12.0)
@@ -101,6 +110,7 @@ GEM
     jbuilder (2.11.5)
       actionview (>= 5.0.0)
       activesupport (>= 5.0.0)
+    jsonapi-renderer (0.2.2)
     loofah (2.19.0)
       crass (~> 1.0.2)
       nokogiri (>= 1.5.9)
@@ -205,13 +215,18 @@ GEM
     zeitwerk (2.6.6)
 
 PLATFORMS
+  ruby
   x86_64-linux
 
 DEPENDENCIES
+
   bcrypt
+  active_model_serializers
+
   bootsnap
   capybara
   debug
+  faker (~> 3.0)
   importmap-rails
   jbuilder
   puma (~> 5.0)
@@ -226,7 +241,7 @@ DEPENDENCIES
   webdrivers
 
 RUBY VERSION
-   ruby 2.7.4p191
+   ruby 2.7.0p0
 
 BUNDLED WITH
    2.3.24
