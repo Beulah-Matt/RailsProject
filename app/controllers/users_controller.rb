@@ -2,7 +2,6 @@ class UsersController < ApplicationController
     skip_before_action :verify_authenticity_token
     before_action :authorize, only: [:show]
     def create
-        byebugg
        user=User.create(user_params)
        session[:user_id]=user.id
        if user.valid?
