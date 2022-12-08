@@ -11,9 +11,16 @@ class MoviesController < ApplicationController
     end
 
     def show
-        #getting our instance 
-        movie = get_movie
-        render json: movie
+        def show
+            session[:page_views] ||= 0
+            session[:page_views] += 1
+            if session[:page_views] <= 3
+            article = Movie.find(params[:id])
+            render json: article, status: :ok
+            else
+              render json: { error: "Maximum movie limit reached"}, status: :unauthorized
+            end
+          end
     end
 
     def create
@@ -30,7 +37,7 @@ class MoviesController < ApplicationController
 
     private 
     def movie_params
-        params.permit(:name, :description, :movie_url)
+        params.permit(:name, :description, :movie_url, :video_url)
     end
 
     def get_movie

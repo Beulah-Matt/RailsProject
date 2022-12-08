@@ -4,7 +4,7 @@ MovieCollection.destroy_all
 
 puts "🌱 Seeding spices..."
 
-movie1 = Movie.create(name: "Toy Story", description:"Woody (Tom Hanks), a good-hearted cowboy doll who belongs to a young boy named Andy (John Morris), sees his position as Andy's favorite toy jeopardized ", movie_url: "https://m.media-amazon.com/images/I/71aBLaC4TzL._AC_SL1330_.jpg", video_url: "https://www.youtube.com/watch?v=VHUBHkPLzjs&ab_channel=PixelmaniaTV")
+movie1 = Movie.create(name: "Toy Story", description:"Woody (Tom Hanks), a good-hearted cowboy doll who belongs to a young boy named Andy (John Morris), sees his position as Andy's favorite toy jeopardized ", movie_url: "https://m.media-amazon.com/images/I/71aBLaC4TzL._AC_SL1330_.jpg", video_url: "https://www.youtube.com/watch?v=7__sKqLaTMc&ab_channel=THEFULLMOVIEVIDEOGAMETV")
 
 movie2 = Movie.create(name: "Braveheart", description:"William Wallace, a Scottish rebel, along with his clan, sets out to battle King Edward I of England, who killed his bride a day after their marriage.", movie_url: "https://i.postimg.cc/fR2spQzN/braveheart.jpg", video_url: "https://www.youtube.com/watch?v=_QbWg0P5wy4&ab_channel=MelAshley" )
 
