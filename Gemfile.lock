@@ -94,6 +94,10 @@ GEM
     debug (1.7.0)
       irb (>= 1.5.0)
       reline (>= 0.3.1)
+    dotenv (2.8.1)
+    dotenv-rails (2.8.1)
+      dotenv (= 2.8.1)
+      railties (>= 3.2)
     erubi (1.11.0)
     faker (3.0.0)
       i18n (>= 1.8.11, < 2)
@@ -111,6 +115,7 @@ GEM
       actionview (>= 5.0.0)
       activesupport (>= 5.0.0)
     jsonapi-renderer (0.2.2)
+    jwt (2.5.0)
     loofah (2.19.0)
       crass (~> 1.0.2)
       nokogiri (>= 1.5.9)
@@ -226,9 +231,11 @@ DEPENDENCIES
   bootsnap
   capybara
   debug
+  dotenv-rails
   faker (~> 3.0)
   importmap-rails
   jbuilder
+  jwt (~> 2.5)
   puma (~> 5.0)
   rack-cors
   rails (~> 7.0.4)
